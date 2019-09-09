@@ -5,4 +5,26 @@
 		<item value="github.com"/>
 		<item value="bitbucket.org"/>
 	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Ruhan Boz &lt;ruhan.yunus@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Ruhan Boz &lt;ruhan.yunus@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\ruhan\eclipse-workspace\.git">
+			<item value="false"/>
+			<item value="Ruhan Boz &lt;ruhan.yunus@gmail.com&gt;"/>
+			<item value="hello git!"/>
+			<item value="Ruhan Boz &lt;ruhan.yunus@gmail.com&gt;"/>
+			<item value="f8090eb0b8ae8019844b832bde399672f2cc181c"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
 </section>
