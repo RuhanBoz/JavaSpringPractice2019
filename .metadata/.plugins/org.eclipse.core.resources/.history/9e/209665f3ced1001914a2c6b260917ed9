@@ -1,0 +1,66 @@
+package day15_Scanner_StringClass;
+import java.util.Scanner;
+public class Task02 {
+
+	public static void main(String[] args) {
+		
+		
+		/*
+		 2. Write a program that asks user to enter three numbers 
+		 		and returns the largest number.
+					Do it with ternary
+
+		 
+				
+			Scanner input = new Scanner(System.in);
+			
+			System.out.println("Enter num1");
+			   double n1 = input.nextDouble(); 
+			   
+			System.out.println("Enter num2");
+				double n2 = input.nextDouble();
+				
+			System.out.println("Enter num3");
+				double n3 = input.nextDouble();
+				
+				double Largest = (n1 > n2 && n1 >n3) ? n1
+								 : (n2 > n1 && n2 > n3) ? n2
+								 : n3 ;
+			
+			System.out.println("Largest number is "+Largest);
+			
+			//================================================
+			/* 
+			-Declare int variables: seniorCitizens, nonSeniorCitizens, age
+			-Create a Scanner object
+			- Ask user to enter count for seniorCitizens and nonSeniorCitizens using message:
+			"Enter current count for seniorCitizens and nonSeniorCitizens:"
+
+			-Ask user to enter age:
+			"What is new citizen's age?"
+
+			-if citizen's age is more than or equals to 65 then print "Senior Citizen" and increment seniorCitizens variable by 1.
+
+			-if citizen's age is less than 65 then print "Non-Senior Citizen" and increment nonSeniorCitizens variable by 1.
+
+			-At last, print another message:
+			"New seniorCitizens count ValueOfVariable"
+			"New nonSeniorCitizens count ValueOfVariable"
+
+		*/
+			 
+		int  seniorCitizens,nonSeniorCitizens,age;
+		Scanner scan= new Scanner(System.in);
+		System.out.println("Enter current count for seniorCitizens and nonSeniorCitizens:");
+		 seniorCitizens= scan.nextInt();
+		 nonSeniorCitizens= scan.nextInt();
+		 age= scan.nextInt();
+		 System.out.println("What is new citizen's age?");
+		if(age>65 && age==65) 
+			System.out.println("Senior Citizen");
+	    else if (age<65) {
+	    	System.out.println("Non-Senior Citizen");
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package day15_Scanner_StringClass;
+
+import java.util.Scanner;
+
+public class Task02 {
+
+	public static void main(String[] args) {
+
+		String firstName,lastName,fullName,email,street,state,city,address,contacts;
+	    int age,zipcode;
+	    double height,weight;
+	    boolean isMarried;
+	    long workPhoneNumber,personalPhoneNumber;
+	    Scanner scan=new Scanner(System.in);
+
+	    System.out.println("Welcome to the patient portal!\n" +"Please enter your personal information");
+	    
+	}
+
+}

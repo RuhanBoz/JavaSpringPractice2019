@@ -1,0 +1,33 @@
+package day15_Scanner_StringClass;
+import java.util.Scanner;
+public class Task01 {
+
+	public static void main(String[] args) {
+		
+	Scanner scan=new Scanner(System.in);
+	
+	int vehicleYear;
+	System.out.println("Enter vehicle's year:");
+	vehicleYear=scan.nextInt();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+		}
+	
+	
+	
+	
+	
+	
+	
+	

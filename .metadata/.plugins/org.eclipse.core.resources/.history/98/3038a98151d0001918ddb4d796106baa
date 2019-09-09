@@ -1,0 +1,17 @@
+package Practices;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+
+		String str="Welcometo Java";
+		
+		
+		System.out.println(str.length());
+		
+		
+		
+		
+	}
+
+}

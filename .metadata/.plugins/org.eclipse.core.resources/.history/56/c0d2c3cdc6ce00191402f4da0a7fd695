@@ -1,0 +1,152 @@
+package Practices;
+
+import java.util.Scanner;
+
+public class selfStudy1 {
+
+	public static void main(String[] args) {
+		
+  // KAHOOT
+		boolean GoodDay = !!!!! false;
+		
+		System.out.println( GoodDay);     // true
+		
+		
+		boolean result = !false!= ("Batch12"!="Best Batch Ever"); // false
+		
+		int a = 100;
+		double b = a += 100/20;
+		
+		System.out.println(a); // 105
+		
+		
+		boolean A = 128>'9'|| 128 == 127;
+		System.out.println(A);           // True
+		
+		boolean StupidOperators;
+		StupidOperators = 10 >= 20 && 'a' > 'b';
+		
+		System.out.println(StupidOperators);
+		
+		
+		int x = 9999999;
+		int y = 10;
+		System.out.println( x*y/10%x);   // 0
+		
+		int c = 100;
+		int d = (byte)100;
+		
+		System.out.println( x >= y && (x+1==x*2/2+1));  // true
+		
+		System.out.println( 5 + 7 + "8");    // 128
+		
+		boolean results = 1 + 11 + "3" == "123";
+		
+		System.out.println(results);  // true
+		
+		int num = 100;
+		num += 300;
+		
+		System.out.println(num++ + " " + num);  // 400 401
+		
+		int num1 = 5;
+		int num2 = 4;
+		int max = 0;
+		
+		if (num1 <= num2 && num1 <= max) {
+			
+			System.out.println("");
+		}
+		
+		System.out.println("================================================");
+		
+	/*	
+		Write a program that lets user to enter apple,dell,acer laptop models
+		If it is apple show “Apple-no virus”
+		If it is dell show “Tough one”
+		If it is acer show “Cheap one”
+		Else “do not buy that one!”
+		*/
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter your computer brand?");
+		          
+		            String laptop = input.nextLine();
+		
+		switch (laptop)  {
+		      
+		       case "apple":
+		    	   System.out.println("Apple-no virus");
+		       break;
+		
+		       case"dell":
+		    	   System.out.println("Tough one");
+		       break;
+		       
+		       case"acer":
+		    	   System.out.println("Cheap one");
+		
+		       default :
+		    	   System.out.println("do not buy that one!");
+		}
+		String days = "Tuesday";
+		
+		switch (days) {
+		
+		       case "Monday":
+		    	   System.out.println("Monday");
+		       break;
+		       
+		       case "Tuesday":
+		    	   System.out.println("Tuesday");
+		       break;
+		       
+		       case "Wednesday":
+		    	   System.out.println("Wednesday");
+		        
+		char chr = 'D';
+		
+		switch (chr) {
+		
+		       case 'A':
+		    System.out.println('A');
+		       break;
+		       
+		       case 'B':   
+		    System.out.println('B');
+		       break;
+		       
+		       case 'C':
+		    System.out.println('C');
+               break;
+               
+		       case 'D':
+		    System.out.println('D');
+		       break;
+		       
+		       default:
+		    System.out.println("not found");
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+	
+		
+		
+		
+	}
+
+}

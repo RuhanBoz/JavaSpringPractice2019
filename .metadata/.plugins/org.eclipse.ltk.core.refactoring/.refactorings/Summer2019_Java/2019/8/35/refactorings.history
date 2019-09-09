@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day12_SwitchStatement.Review&apos; to &apos;warmUp&apos;&#x0D;&#x0A;- Original project: &apos;Summer2019_Java&apos;&#x0D;&#x0A;- Original element: &apos;day12_SwitchStatement.Review&apos;&#x0D;&#x0A;- Renamed element: &apos;day12_SwitchStatement.warmUp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Review&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day12_SwitchStatement{Review.java[Review" matchStrategy="1" name="warmUp" qualified="false" references="true" similarDeclarations="false" stamp="1567087661682" textual="false" version="1.0"/>
+</session>

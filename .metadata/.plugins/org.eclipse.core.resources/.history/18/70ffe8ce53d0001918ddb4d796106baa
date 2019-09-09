@@ -1,0 +1,36 @@
+package Practices;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+
+		String str="Welcome to Java";
+		
+		
+		
+		int length =str.length();
+		
+		System.out.println(length);
+		
+		
+		char chr=str.charAt(0);
+		
+		
+		System.out.println(chr);
+		
+		
+		String str1="Class";
+		
+		
+	System.out.println(str.concat(str1));
+		
+	
+	
+	String str2=str.toLowerCase();
+	
+	System.out.println(str2);
+		
+	System.out.println(str1.toUpperCase());	
+	}
+
+}

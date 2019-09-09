@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Practices.task1&apos; to &apos;task_IfStatement&apos;&#x0D;&#x0A;- Original project: &apos;Ruhan&apos;&#x0D;&#x0A;- Original element: &apos;Practices.task1&apos;&#x0D;&#x0A;- Renamed element: &apos;Practices.task_IfStatement&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;task1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Practices{task1.java[task1" matchStrategy="1" name="task_IfStatement" qualified="false" references="true" similarDeclarations="false" stamp="1566868402034" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,76 @@
+package Practices;
+
+public class selfStudy1 {
+
+	public static void main(String[] args) {
+		
+  // KAHOOT
+		boolean GoodDay = !!!!! false;
+		
+		System.out.println( GoodDay);     // true
+		
+		
+		boolean result = !false!= ("Batch12"!="Best Batch Ever"); // false
+		
+		int a = 100;
+		double b = a += 100/20;
+		
+		System.out.println(a); // 105
+		
+		
+		boolean A = 128>'9'|| 128 == 127;
+		System.out.println(A);           // True
+		
+		boolean StupidOperators;
+		StupidOperators = 10 >= 20 && 'a' > 'b';
+		
+		System.out.println(StupidOperators);
+		
+		
+		int x = 9999999;
+		int y = 10;
+		System.out.println( x*y/10%x);   // 0
+		
+		int c = 100;
+		int d = (byte)100;
+		
+		System.out.println( x >= y && (x+1==x*2/2+1));  // true
+		
+		System.out.println( 5 + 7 + "8");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
